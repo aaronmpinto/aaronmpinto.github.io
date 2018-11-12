@@ -50,7 +50,7 @@ a:hover{color:#0f52ba;}
 .slide-nav a.btn-outline-light:focus{box-shadow:none;}
 .slide a.btn.btn-outline-light:hover{color: #212529}
 .slide-nav a.btn.btn-outline-light:hover{color: #fff}
-#portfolio-link.active,#transformation-link.active, #infrastructure-link.active, #refresh-link.active,#crisis-link.active   {
+#portfolio-link.active,#transformation-link.active, #infrastructure-link.active, #technology-link.active,#crisis-link.active   {
   border-left: 4px solid transparent;
 }
 .intro{margin:1rem 0 0rem;}
@@ -95,7 +95,7 @@ span.email-address{display:block;margin-bottom: 2rem;}
   background-position:right center;
 }
 
-#renovation, #it, #crisis, #controlling, #construction  {
+#renovation, #deployment, #crisis, #monitoring, #construction  {
   background-position: center center;
 }
 #initiation{
@@ -116,11 +116,11 @@ span.email-address{display:block;margin-bottom: 2rem;}
   background-image:url(images/slides/construction.jpg);
 }
 #renovation{background-image:url(images/slides/renovation.jpg);}
-#refreshes{background-image:url(images/slides/refreshes.jpg);}
-#it{background-image:url(images/slides/it.jpg);}
+#technology{background-image:url(images/slides/refreshes.jpg);}
+#deployment{background-image:url(images/slides/it.jpg);}
 #crisis{background-image:url(images/slides/crisis.jpg);}
 #remediation{background-image:url(images/slides/remediation.jpg);}
-#controlling{background-image:url(images/slides/controlling.jpg);}
+#monitoring{background-image:url(images/slides/controlling.jpg);}
 #closure{background-image:url(images/slides/closure.jpg);}
 
 
@@ -207,7 +207,7 @@ div#preloader{display: none !important;}
 /**collapse active sub menus**/
 .submenu, .subsubmenu {visibility:hidden;opacity:0;transition:visibility 0s, opacity 0.5s linear;position:relative;height:0;display:auto;}
 #portfolio-link.active ~ .submenu{visibility:visible;opacity:1;display:block;height:auto;transition:visibility 0s, opacity 0.5s linear;}
-#transformation-link.active + .subsubmenu,#infrastructure-link.active + .subsubmenu,#refresh-link.active + .subsubmenu,#crisis-link.active + .subsubmenu   {
+#transformation-link.active + .subsubmenu,#infrastructure-link.active + .subsubmenu,#technology-link.active + .subsubmenu,#crisis-link.active + .subsubmenu   {
   visibility:visible;opacity:1;display:block;height:auto;transition:visibility 0s, opacity 0.5s linear;
 }
 .active .submenu, .active .subsubmenu{visibility:visible;opacity:1;}
@@ -466,7 +466,7 @@ div#preloader{display: none !important;}
 }
 
 
-p.volunteeropic {
+p.volunteertopic {
   font-weight: 600;
   text-align: center;
   font-size: 22px;
