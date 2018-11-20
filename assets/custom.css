@@ -44,7 +44,7 @@ a:hover{color:#0f52ba;}
 /* #navbar a.nav-link.sublink:hover, .nav-pills .nav-link:hover{color:#0f52ba;} */
 #navbar nav.subsubmenu a.nav-link.sublink.active{padding:0 0.25rem 0 2.25rem;margin-left:0rem;color:#0f52ba;}
 .row{margin-right:0px;margin-left:0px;}
-.slide-nav{display:none;bottom:25px;margin:auto;position:absolute;left:0;right:0;z-index:3;width:500px;text-align:center;}
+.slide-nav{display:none;bottom:0px;margin:auto;position:absolute;left:0;right:0;z-index:3;width:500px;text-align:center;}
 .slide-nav a{color:#fff;border:0px;margin-right:0;opacity:0.8;}
 .slide-nav a:hover, .slide-nav a:not(:disabled):not(.disabled):active{background-color:transparent;color:white;border:none;opacity:1;}
 .slide-nav a.btn-outline-light:focus{box-shadow:none;}
