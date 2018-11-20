@@ -4,7 +4,7 @@ body{
   height:100%;padding-top:0px !important;
   background-color:#1f1f1f;color:#fff;font-family: 'Open Sans', sans-serif;word-wrap:break-word;}
 body.preloading{overflow-y: hidden;}
-html .container, body .container {overflow-x:visible;max-width: 100%;padding: 0;}
+html .container, body .container {overflow-x:hidden;max-width: 100%;padding: 0;}
 div#preloader { position: fixed; left: 0; top: 0; z-index: 1032; width: 100%; height: 100%; overflow: visible; background: #222222; }
 div#preloader svg{max-width: 15rem;fill: none;stroke: #0000;stroke-linecap: round;stroke-width: 4%;margin: 0 auto;position: relative;display: block;top: 50%;margin-top: -100px;}
 div#preloader use{stroke: #0f52ba; -webkit-animation: a 2s linear infinite;-moz-animation: a 2s linear infinite;animation: a 2s linear infinite;}
