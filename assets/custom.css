@@ -30,7 +30,7 @@ a:hover{color:#0f52ba;}
 .btn-outline-light:focus{box-shadow:none;}
 .btn.btn-outline-light{margin-bottom:1rem;}
 .slide-nav .btn{margin-bottom:0;}
-#navbar{position: fixed;top:4em;width:190px;padding:0;-ms-flex-align:normal;align-items:normal;transition:visibility 0s, opacity 0.5s linear;left:auto;right:0;border-width:0 1px 0 0;}
+#navbar{position: fixed;top:60px;width:190px;padding:0;-ms-flex-align:normal;align-items:normal;transition:visibility 0s, opacity 0.5s linear;left:auto;right:0;border-width:0 1px 0 0;}
 #navbar.active{display:block;}
 .navbar-collapse{-ms-flex-align:normal;align-items:normal;}
 .nav-pills .nav-link{border-radius:0;border-left:4px solid transparent;color:#cdd1d4;font-weight:400;}
