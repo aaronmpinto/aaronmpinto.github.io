@@ -62,7 +62,7 @@ a:hover{color:#0f52ba;}
 .intro-social{text-align:left;}
 .intro-social img{width:110px;margin:0 1rem 0 0;}
 .divider{text-align:center;padding:3rem 0}
-section.slide div.row:first-child{margin-top:7rem;}
+section.slide div.row:first-child{margin-top:5rem; margin-bottom: 1rem;}
 
 /*toggle navbar*/
 
