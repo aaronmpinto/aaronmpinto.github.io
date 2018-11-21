@@ -56,11 +56,9 @@ a:hover{color:#0f52ba;}
 .intro{margin:1rem 0 0rem;}
 .intro p:not(:empty){max-width: 520px;}
 #intro .intro p:not(:empty) {max-width: 475px;}
-.intro-img{text-align:center;}
-.intro-img img{display:none;}
 .intro img.award{max-height:70px;}
 .intro-social{text-align:center;}
-.intro-social a{padding-right: 10px;}
+.intro-social a{padding: 10px;}
 .divider{text-align:center;padding:3rem 0}
 section.slide div.row:first-child{margin-top:5rem; margin-bottom: 1rem;}
 
@@ -130,7 +128,7 @@ span.email-address{display:block;margin-bottom: 2rem;}
 }
 #initiation{
   background-image:url(images/slides/initiation.jpg);
-  background-position: 61%;
+  background-position: 50%;
 }
 #planning{
   background-image:url(images/slides/planning.jpg);
