@@ -14,7 +14,7 @@ h1{font-size:2rem;}
 h1 span{font-weight:700;}
 .home h1{font-size:2.625rem;}
 .home h2{font-size:1.75rem;line-height:1.25;font-weight:600;padding:2rem 0 2rem;margin:0;}
-h2::after{content:'';width:5rem;height:0.3rem;display:block;background-color:#0f52ba;position:relative;bottom:-0.75rem;left:0;}
+h2::after, h1::after{content:'';width:5rem;height:0.3rem;display:block;background-color:#0f52ba;position:relative;bottom:-0.75rem;left:0;}
 #intro h2{padding: 0 0 1rem;}
 #intro h2:before{display: none;}
 #planning p {
