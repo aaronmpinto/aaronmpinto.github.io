@@ -12,7 +12,7 @@ div#preloader use{stroke: #0f52ba; -webkit-animation: a 2s linear infinite;-moz-
 main#main{height: 100%;width: 100%}
 h1{font-size:2rem;}
 h1 span{font-weight:700;}
-.home h1{font-size:2.625rem;}
+.home h1{font-size:2.625rem;line-height:1.25;font-weight:600;padding:2rem 0 2rem;margin:0;}
 .home h2{font-size:1.75rem;line-height:1.25;font-weight:600;padding:2rem 0 2rem;margin:0;}
 h2::after, h1::after{content:'';width:5rem;height:0.3rem;display:block;background-color:#0f52ba;position:relative;bottom:-0.75rem;left:0;}
 #intro h2{padding: 0 0 1rem;}
@@ -194,7 +194,7 @@ span.email-address{display:block;margin-bottom: 2rem;}
 
   html{overflow-x:visible;}
   body{margin-top:0;overflow-x:visible;}
-  .home h1{font-size:3.3rem;}
+  .home h1{font-size:3.3rem;line-height:1.25;font-weight:600;padding:2rem 0 2rem;margin:0;}
   .navbar-dark{display:none;}
   .nav{display:block;position:fixed;}
   #navbar{z-index:10;display:block !important;padding:0;background:transparent;top:16rem;left:0;right:auto;overflow-y: hidden;}
