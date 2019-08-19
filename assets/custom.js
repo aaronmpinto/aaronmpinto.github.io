@@ -1,8 +1,8 @@
 //preloader
-$(window).on('load', function () {
-   $("#preloader").fadeOut(500);
-   $('body').removeClass('preloading')
-});
+//$(window).on('load', function () {
+ //  $("#preloader").fadeOut(500);
+  // $('body').removeClass('preloading')
+//});
 
 //smooth scroll 
 $("#navbar nav a[href^='#'],.slide-nav a[href^='#'],.scroll[href^='#']").on('click', function(e) {
