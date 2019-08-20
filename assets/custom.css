@@ -60,7 +60,7 @@ a:hover{color:#0f52ba;}
 .intro-social{text-align:center;}
 .intro-social a{padding: 10px;}
 .divider{text-align:center;padding:3rem 0}
-section.slide div.row:first-child{margin-top:5rem; margin-bottom: 1rem;}
+section.slide div.row:first-child{padding-top:5rem; margin-bottom: 1rem;}
 
 /*toggle navbar*/
 button:focus{
@@ -127,8 +127,8 @@ span.email-address{display:block;margin-bottom: 2rem;}
   background-position: center center;
 }
 #initiation{
-  background-image:url(images/slides/initiation.jpg);
-  background-position: 50%;
+  background-image:url(images/slides/profile.jpg);
+  background-position: 70%;
 }
 #planning{
   background-image:url(images/slides/planning.jpg);
@@ -536,4 +536,12 @@ p.volunteertopic {
   text-align: center;
   font-size: 22px;
   padding-top: 2rem;
+}
+
+.overlay {
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-image: linear-gradient(to right, rgba(0,0,0,9) , rgba(255,0,0,0));
 }
