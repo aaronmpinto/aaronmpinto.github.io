@@ -261,6 +261,14 @@ div#preloader{display: none !important;}
   }
 }
 
+/* logos of volunteer not shown in mobile view */
+@media screen and (max-width: 767px) {
+  .volunteerdiv {
+    display: none;
+  }
+}
+
+
 /**collapse active sub menus**/
 .submenu, .subsubmenu {visibility:hidden;opacity:0;transition:visibility 0s, opacity 0.5s linear;position:relative;height:0;display:auto;}
 #portfolio-link.active ~ .submenu{visibility:visible;opacity:1;display:block;height:auto;transition:visibility 0s, opacity 0.5s linear;}
