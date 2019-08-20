@@ -60,7 +60,7 @@ a:hover{color:#0f52ba;}
 .intro-social{text-align:center;}
 .intro-social a{padding: 10px;}
 .divider{text-align:center;padding:3rem 0}
-section.slide div.row:first-child{padding-top:5rem; margin-bottom: 1rem;}
+section.slide div.row:first-child{padding-top:5rem; padding-bottom: 1rem;}
 
 /*toggle navbar*/
 button:focus{
@@ -544,4 +544,11 @@ p.volunteertopic {
   height: 100%;
   width: 100%;
   background-image: linear-gradient(to right, rgba(0,0,0,9) , rgba(255,0,0,0));
+}
+
+@media screen and (max-width: 767px) {
+  .overlay {
+    background: rgba(0,0,0,.6);
+    background-image: none;
+  }
 }
