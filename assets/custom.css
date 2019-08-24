@@ -194,7 +194,7 @@ span.email-address{display:block;margin-bottom: 2rem;}
 
   html{overflow-x:visible;}
   body{margin-top:0;overflow-x:visible;}
-  .home h1{font-size:3.3rem;line-height:1.25;font-weight:600;padding:2rem 0 2rem;margin:0;}
+  .home h1{font-size:3.0rem;line-height:1.25;font-weight:600;padding:2rem 0 2rem;margin:0;}
   .navbar-dark{display:none;}
   .nav{display:block;position:fixed;}
   #navbar{z-index:10;display:block !important;padding:0;background:transparent;top:16rem;left:0;right:auto;overflow-y: hidden;}
