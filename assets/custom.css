@@ -126,8 +126,12 @@ span.email-address{display:block;margin-bottom: 2rem;}
 #deployment,  #construction, #transformation, #merger, #redevelopment, #closure   {
   background-position: center center;
 }
-#initiation{
+#start{
   background-image:url(images/slides/profile.jpg);
+  background-position: 70%;
+}
+#initiation{
+  background-image:url(images/slides/profile1.jpg);
   background-position: 70%;
 }
 #planning{
@@ -172,7 +176,7 @@ span.email-address{display:block;margin-bottom: 2rem;}
 @media (min-width:576px){
   .slide + section{border-top:none;}
   .home h2{font-size:2.1875rem;line-height:1.25;font-weight:600;padding:2rem 0 2rem;margin:0;}
-  #planning h2:first-child  {
+  #planning h2:first-child, #start h1:first-child  {
     padding:20% 0 2rem;
   }
   #planning p:last-child{
