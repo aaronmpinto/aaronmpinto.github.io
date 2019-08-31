@@ -142,6 +142,21 @@ span.email-address{display:block;margin-bottom: 2rem;}
 .form-horizontal{position: relative;}
 .email-thanks{position: absolute;top: 0px;height: 100%;padding: 8rem 2rem 2rem;color: rgb(255, 255, 255);background: #000000;display: none;}
 
+
+
+/*---planning */
+#planning img {
+  max-width: 80px; 
+  max-height: 50px;
+  float: left; 
+  margin-right: 5px;
+}
+
+.skilltext {
+  margin-left: 70px;
+}
+
+
 /* Background Images */
 .slide-nav{display:block;}
 
