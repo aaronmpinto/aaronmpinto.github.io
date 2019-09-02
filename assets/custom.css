@@ -58,7 +58,37 @@ a:hover{color:#0f52ba;}
 #intro .intro p:not(:empty) {max-width: 475px;}
 .intro img.award{max-height:70px;}
 .intro-social{text-align:center;}
-.intro-social a{padding: 10px;}
+.intro-social a{margin: 10px;}
+.social a {
+  transition: all .3s ease;
+  text-decoration: none;
+  padding-right: 1rem;
+}
+
+/*--- header button ---*/
+
+.mt-4, .pt-4 {
+  margin-top: 1.5rem!important;
+  padding-bottom: 1rem;
+}
+
+.header_btn a {
+  margin-right: 1rem;
+}
+.btn-outline-custom {
+  background-color: transparent;
+  border: 2px solid #fff;
+  color: #fff;
+  letter-spacing: 1px;
+  transition: all 0.5s;
+  font-size: 15px;
+}
+.btn-rounded {
+  border-radius: 30px;
+}
+.btn {
+  padding: 12px 26px;
+} 
 .divider{text-align:center;padding:3rem 0}
 section.slide div.row:first-child{padding-top:5rem; padding-bottom: 1rem;}
 
@@ -112,6 +142,25 @@ span.email-address{display:block;margin-bottom: 2rem;}
 .form-horizontal{position: relative;}
 .email-thanks{position: absolute;top: 0px;height: 100%;padding: 8rem 2rem 2rem;color: rgb(255, 255, 255);background: #000000;display: none;}
 
+
+
+/*---planning */
+#planning span img {
+  max-width: 80px; 
+  max-height: 50px;
+  float: left; 
+  margin-right: 10px;
+  padding-top: 5px;
+}
+
+.skilltext {
+  margin-left: 90px;
+}
+.educationext {
+  margin-left: 50px;
+}
+
+
 /* Background Images */
 .slide-nav{display:block;}
 
@@ -126,8 +175,12 @@ span.email-address{display:block;margin-bottom: 2rem;}
 #deployment,  #construction, #transformation, #merger, #redevelopment, #closure   {
   background-position: center center;
 }
-#initiation{
+#start{
   background-image:url(images/slides/profile.jpg);
+  background-position: 70%;
+}
+#initiation{
+  background-image:url(images/slides/initiation.jpg);
   background-position: 70%;
 }
 #planning{
@@ -172,22 +225,32 @@ span.email-address{display:block;margin-bottom: 2rem;}
 @media (min-width:576px){
   .slide + section{border-top:none;}
   .home h2{font-size:2.1875rem;line-height:1.25;font-weight:600;padding:2rem 0 2rem;margin:0;}
-  #planning h2:first-child  {
-    padding:20% 0 2rem;
-  }
-  #planning p:last-child{
-    padding-bottom: 30%;
-  }
+
+
   .modal-dialog {max-width: 800px;margin: 1.75rem auto;}
   .modal-body{padding: 0;}
   .modal-title{color: black;}
   .intro-social a{
-    padding-top: 30px;
+    margin-top: 30px;
     display: block;
+    max-width: 70px;
   }
   .intro-social a:first-child{
-    padding-top: 2rem;
+    margin-top: 2rem;
   }
+}
+@media (min-width:576px){ 
+  #start h1:first-child  {
+    padding: 30% 0 2rem;
+  }
+}
+@media (max-width:575px){ 
+  #start h1:first-child  {
+    padding: 20% 0 2rem;
+  }
+}
+#start .header_btn {
+  padding-bottom: 30%;
 }
 
 @media (min-width:768px){
