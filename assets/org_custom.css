@@ -534,8 +534,18 @@ span.email-address {
   background-position: 50%
 }
 
+.mobileview {
+  position: absolute;
+  bottom: 0;
+}
+
 
 @media (min-width:576px) {
+  .mobileview {
+    position: unset;
+    bottom: unset;
+  }
+
   .slide+section {
       border-top: none
   }
