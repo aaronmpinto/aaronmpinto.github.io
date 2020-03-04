@@ -1,6 +1,7 @@
 <!DOCTYPE html>
-<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    
+<html lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
     <title>AMPower the World</title>
     <meta http-equiv="X-UA-Compatible" content="IE=9;IE=10;IE=Edge,chrome=1">
@@ -479,6 +480,37 @@
       <script src="./assets/bootstrap.min.js"></script>
       <script src="./assets/custom.js"></script>
       <script src="./assets/jasny-bootstrap.min.js"></script>
+      <script>
+        /*!
+        Modified for brevity from https://github.com/filamentgroup/loadCSS
+        loadCSS: load a CSS file asynchronously.
+        [c]2014 @scottjehl, Filament Group, Inc.
+        Licensed MIT
+        */
+        function loadCSS(href){
+          var ss = window.document.createElement('link'),
+              ref = window.document.getElementsByTagName('head')[0];
+  
+          ss.rel = 'stylesheet';
+          ss.href = href;
+  
+          // temporarily, set media to something non-matching to ensure it'll
+          // fetch without blocking render
+          ss.media = 'only x';
+  
+          ref.parentNode.insertBefore(ss, ref);
+  
+          setTimeout( function(){
+            // set media back to `all` so that the stylesheet applies once it loads
+            ss.media = 'all';
+          },0);
+        }
+        loadCSS('./assets/backgroundImages.css');
+      </script>
+      <noscript>
+        <!-- Let's not assume anything -->
+        <link rel="stylesheet" href="./assets/backgroundImages.css">
+      </noscript>
     </div>
   
 

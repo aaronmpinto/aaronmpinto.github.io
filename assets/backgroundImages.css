@@ -1,0 +1,57 @@
+#planning {
+  background-image: url(images/slides/planning.jpg)
+}
+
+#transformation {
+  background-image: url(images/slides/transformation.jpg)
+}
+
+#merger {
+  background-image: url(images/slides/merger.jpg);
+  background-position: 70%
+}
+
+#infrastructure {
+  background-image: url(images/slides/builds.jpg)
+}
+
+#redevelopment {
+  background-image: url(images/slides/redevelopment.jpg)
+}
+
+#construction {
+  background-image: url(images/slides/construction.jpg)
+}
+
+#renovation {
+  background-image: url(images/slides/renovation.jpg);
+  background-position: 40%
+}
+
+#technology {
+  background-image: url(images/slides/refreshes.jpg);
+  background-position: 76%
+}
+
+#deployment {
+  background-image: url(images/slides/deployment.jpg)
+}
+
+#crisis {
+  background-image: url(images/slides/crisis.jpg);
+  background-position: 70%
+}
+
+#remediation {
+  background-image: url(images/slides/remediation.jpg);
+  background-position: 71%
+}
+
+#monitoring {
+  background-image: url(images/slides/controlling.jpg);
+  background-position: 25%
+}
+
+#closure {
+  background-image: url(images/slides/closure.jpg)
+}
